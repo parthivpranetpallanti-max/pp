@@ -41,7 +41,7 @@ async function startServer() {
   // --- API Routes ---
   
   app.get("/api/health", (req, res) => {
-    res.json({ status: "ok", system: "PDS" });
+    res.json({ status: "ok", system: "ADIE" });
   });
 
   app.get("/api/data", (req, res) => {
@@ -128,7 +128,7 @@ async function startServer() {
   }
 
   app.listen(PORT, "0.0.0.0", () => {
-    console.log(`PDS Server running on http://localhost:${PORT}`);
+    console.log(`ADIE Server running on http://localhost:${PORT}`);
   });
 }
 

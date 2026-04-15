@@ -1,6 +1,6 @@
 {
-  "name": "PDS-Phantom demand shield",
-  "description": "A sophisticated demand intelligence and protection system managed by Data Wizards.",
+  "name": "Autonomous Demand Intelligence Engine (ADIE)",
+  "description": "An agentic AI system for managing quick-commerce backend operations with multiple collaborating agents.",
   "requestFramePermissions": [],
   "majorCapabilities": ["AI Agents", "Real-time Dashboard", "Demand Analysis", "Zone Intelligence"]
 }
