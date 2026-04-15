@@ -293,7 +293,7 @@ export default function App() {
           transition={{ duration: 0.5 }}
           className="text-[var(--accent-cyan)] font-mono tracking-[0.3em] uppercase text-sm animate-pulse"
         >
-          Initializing ADIE Kernel
+          Initializing PDS Kernel
         </motion.div>
       </div>
     );
@@ -314,8 +314,8 @@ export default function App() {
             <Zap size={20} className="text-black" />
           </div>
           <div className="flex flex-col">
-            <span className="font-bold text-xl tracking-tight">ADIE</span>
-            <span className="text-[10px] text-[var(--text-secondary)] tracking-widest uppercase">Autonomous Intelligence</span>
+            <span className="font-bold text-xl tracking-tight">PDS</span>
+            <span className="text-[10px] text-[var(--text-secondary)] tracking-widest uppercase">Phantom Demand Shield</span>
           </div>
         </div>
 
@@ -354,7 +354,7 @@ export default function App() {
           <div className="h-8 w-px bg-white/10 mx-2" />
           <div className="flex items-center gap-3 pl-2">
             <div className="text-right hidden sm:block">
-              <div className="text-xs font-bold">Admin Kernel</div>
+              <div className="text-xs font-bold">Data Wizards</div>
               <div className="text-[10px] text-[var(--text-secondary)]">Root Access</div>
             </div>
             <div className="w-10 h-10 rounded-full border border-white/10 p-0.5">
@@ -873,7 +873,7 @@ export default function App() {
       {/* Footer */}
       <footer className="mt-12 py-8 border-t border-white/5 text-center">
         <div className="text-[10px] text-[var(--text-secondary)] uppercase tracking-[0.4em]">
-          ADIE Neural Dashboard &copy; 2026
+          PDS Phantom Shield Dashboard &copy; 2026
         </div>
       </footer>
     </div>
